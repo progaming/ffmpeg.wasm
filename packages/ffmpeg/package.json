@@ -1,5 +1,6 @@
 {
-  "name": "@ffmpeg/ffmpeg",
+  "name": "@progaming/ffmpeg",
+  "type": "module",
   "version": "0.12.15",
   "description": "FFmpeg WebAssembly version for browser",
   "main": "./dist/umd/ffmpeg.js",
@@ -33,7 +34,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ffmpegwasm/ffmpeg.wasm.git"
+    "url": "git+https://github.com/progaming/ffmpeg.wasm.git"
   },
   "keywords": [
     "ffmpeg",
@@ -45,12 +46,12 @@
   "author": "Jerome Wu <jeromewus@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ffmpegwasm/ffmpeg.wasm/issues"
+    "url": "https://github.com/progaming/ffmpeg.wasm/issues"
   },
   "engines": {
     "node": ">=18.x"
   },
-  "homepage": "https://github.com/ffmpegwasm/ffmpeg.wasm#readme",
+  "homepage": "https://github.com/progaming/ffmpeg.wasm#readme",
   "publishConfig": {
     "access": "public"
   },
@@ -63,6 +64,6 @@
     "webpack-cli": "^5.1.4"
   },
   "dependencies": {
-    "@ffmpeg/types": "^0.12.4"
+    "@progaming/ffmpeg-types": "^0.12.4"
   }
 }
